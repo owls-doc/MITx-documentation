@@ -26,6 +26,7 @@ Obtaining a Video Transcript
 
 To obtain a transcript in .srt format, you can work with a transcript
 provider such as `3Play Media`_ or `cielo24`_.
+
 .. note::
   Transcripts must be in the SubRip Text (.srt)
   format. We strongly recommend that you format your .srt files as plain text
