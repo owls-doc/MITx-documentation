@@ -9,7 +9,7 @@ following resources can help you to create good video content that is based on
 extensive experimental research in student learning.
 
 * The `Creating Video for the edX Platform`_ course
-* Richard E. Mayer's `12 Principles of Multimedia Learning`_
+* Richard E. Mayer's `12 Principles of Multimedia Learning <https://www.hartford.edu/faculty-staff/faculty/fcld/_files/12%20Principles%20of%20Multimedia%20Learning.pdf>`_
 
 When you create video files, keep the following guidelines in mind.
 
