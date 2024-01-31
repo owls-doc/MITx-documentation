@@ -1,3 +1,7 @@
+.. _Managing Course Videos:
+
+.. this is the old name of this section, left here so that frozen Maple
+    projects will resolve the reference:
 .. _Upload a Video on edX:
 
 #################
@@ -9,6 +13,53 @@ For more information, see the following topics.
 .. contents::
   :local:
   :depth: 2
+
+.. _Course  Videos Page:
+
+*******************
+Course Videos Page
+*******************
+
+You manage videos for your course on the Videos page. This page lists the 
+videos that you have added, along with the following capabilities and 
+information regarding the videos.
+
+.. image:: ../../../shared/images/videos_page.png
+ :width: 600
+ :alt: The Videos page lists all course videos.  Additional features include: 
+  title search; sort and filter; add videos; download videos; delete videos; 
+  view file name, video length, transcript status, and whether video is 
+  active in the course at a glance.
+
+* A checkbox for Download and Delete bulk actions
+* A thumbnail of the file
+* The video name
+* The video length
+* Transcript status
+* An indication of whether the video is active in the course
+* An indication of the video status (failed, processing, or blank. The video 
+  is ready when that column is blank)
+* The three dot menu allows you to copy the Video ID, download the video, 
+  launch the Info Modal, and delete a video
+
+=================
+Video Info Modal
+=================
+
+The Info Modal shows the date added, the file size, and the length of the 
+video. The “Usage” section lists all Units where the file is referenced 
+within the course. Clicking on each link will take you to the corresponding 
+Studio Unit page. 
+
+.. image:: ../../../shared/images/videos_page_info_modal.png
+ :width: 400
+ :alt: The Info Modal shows the thumbnail, the date the video was added, 
+  the file size, the video length, and if the video is active, then there 
+  is a link on the bottom left hand corner of the page that will take you 
+  to the location of the video in the course.
+
+This page also includes a Search option to help you find specific videos. 
+For more information, see :ref:`Find an Uploaded Video`.
 
 .. _Uploading a Video for an edx org Course:
 
@@ -45,13 +96,19 @@ represents all of the formats and hosting locations for the video.
 * For courses that have :ref:`non-integrated transcripts <Automated Video
   Process for Non Integrated Transcripts>`, you must obtain your transcripts
   from your third party provider. You later :ref:`add the video transcripts
-  manually <Add a Transcript>` when you create a video component.
+  manually <Add a Transcript>` when you create a video component. Transcripts 
+  can also be added in the Transcript tab within the Info Modal.
+
+.. image:: ../../../shared/images/videos_page_info_modal_transcripts.png
+ :width: 400
+ :alt: The Transcript Tab shows the languages a video has transcripts for and 
+  also offers the capability to add languages.
 
 .. note::
   If a step in the process does not complete successfully, the process
   automatically tries again multiple times. If the process does not complete
   successfully after multiple tries, an :ref:`error status <Video Processing
-  Statuses>` appears in the list of videos on the **Video Uploads** page as 
+  Statuses>` appears in the list of videos on the **Videos** page as 
   well as within the video component.
 
 For more information, see the following topics:
@@ -62,6 +119,7 @@ For more information, see the following topics:
 
 .. _Automated Video Process for Integrated Transcripts:
 
+**************************************************
 Automated Video Process for Integrated Transcripts
 **************************************************
 
@@ -92,6 +150,7 @@ see :ref:`Add a Video to a Course`.
 
 .. _Automated Video Process for Non Integrated Transcripts:
 
+******************************************************
 Automated Video Process for Non-Integrated Transcripts
 ******************************************************
 
@@ -196,6 +255,7 @@ information, see :ref:`Reporting Video Status`.
 
 .. _Video Processing Statuses:
 
+*************************
 Video Processing Statuses
 *************************
 
@@ -214,8 +274,7 @@ The encoding and hosting process assigns the following statuses to video files.
       #. Verify that you can play your original .mp4 or .mov file and that the
          file meets all :ref:`specifications <Video Guidelines>` for successful
          video processing.
-      #. Remove the video file from the **Video Uploads** page by selecting the
-         "Remove this video" icon for the video.
+      #. Remove the video file from the **Videos** page.
       #. Upload the original file again, or upload a replacement file.
 
       There might be failure instances where a small error message will be displayed
@@ -259,8 +318,7 @@ The encoding and hosting process assigns the following statuses to video files.
       #. Verify that the file that you uploaded is in .mp4 or .mov format and
          that the file meets all :ref:`specifications <Video Guidelines>` for
          successful video processing.
-      #. Remove the video file from the **Video Uploads** page by selecting the
-         "Remove this video" icon for the video.
+      #. Remove the video file from the **Videos** page.
       #. Upload the original file again, or upload a replacement file.
 
       If this problem occurs more than one time for a file, contact MITx Online
@@ -272,9 +330,10 @@ The encoding and hosting process assigns the following statuses to video files.
       learners to view.
 
   * - **Partial Failure**
-    - This status appears when the transcription process has been started for more than one languages
-      and either one or more processes fail. This indicate a combination of successful and unsuccessful
-      transcription processes.
+    - This status appears when the transcription process has been started for 
+      more than one languages and either one or more processes fail. This 
+      indicates a combination of successful and unsuccessful transcription 
+      processes.
 
   * - **Transcript Failed**
     - All the transcription processes have failed.
@@ -290,16 +349,17 @@ The encoding and hosting process assigns the following statuses to video files.
       #. Verify that the file that you uploaded is in .mp4 or .mov format and
          that the file meets all :ref:`specifications <Video Guidelines>` for
          successful video processing.
-      #. Remove the video file from the **Video Uploads** page by selecting the
-         "Remove this video" icon for the video.
+      #. Remove the video file from the **Videos** page.
       #. Upload the original file again, or upload a replacement file.
 
-      If this problem occurs more than one time for a file, contact MITx Online support at ``mitxonline-support@mit.edu``.
+      If this problem occurs more than one time for a file, contact edX partner
+      support at ``partner-support@edx.org``.
 
 
 
 .. _Reporting Video Status:
 
+******************************************
 Downloading the Available Encodings Report
 ******************************************
 
@@ -317,7 +377,7 @@ To download the Available Encodings report, follow these steps.
 
 #. Open the course in Studio.
 
-#. On the **Content** menu, select **Video Uploads**.
+#. On the **Content** menu, select **Videos**.
 
 #. On the **Video Uploads** page, click **Download available encodings (.csv)**.
 
